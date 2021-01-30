@@ -14,6 +14,7 @@
             label="番数"
             placeholder="番数"
             :rules="[{require:true, message: '请输入番数'}]"
+            type="digit"
         />
         <van-field
             readonly

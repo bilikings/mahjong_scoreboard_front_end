@@ -4,7 +4,9 @@
         square
         :column-num="3"
     >
-      <van-grid-item />
+      <van-grid-item>
+        <p>本场数</p>
+      </van-grid-item>
       <van-grid-item>
         <gamer></gamer>
       </van-grid-item>
@@ -47,8 +49,4 @@ export default {
 </script>
 
 <style scoped>
-.fill{
-  background: #00CC00;
-  height: 100px;
-}
 </style>
