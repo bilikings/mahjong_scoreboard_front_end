@@ -23,17 +23,22 @@
         />
       </div>
     </van-popup>
+
+
     <van-button block :round="true" to="/room">Test</van-button>
+    <stomp/>
   </div>
 </template>
 
 <script>
 import navbar from '../components/NavBar'
 import {Toast} from "vant";
+import stomp from "../stomp"
 export default {
   name: "Home",
   components: {
-    navbar
+    navbar,
+    stomp
   },
   data:function () {
     return {
